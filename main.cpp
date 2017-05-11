@@ -7,8 +7,6 @@
 #include "opencv2/core/ocl.hpp"
 #include <iostream>
 #include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 
 using namespace std;
@@ -92,22 +90,6 @@ int main(int argc, char *argv[]) {
 
     }
 */
-    /*
-    captura = cv2.VideoCapture(1)
-
-    while(1):
-    ret, frame = captura.read()
-    cv2.imshow("Video", frame)
-
-    k = cv2.waitKey(30) & 0xff
-    if k == 27:
-    break
-
-    captura.release()
-    cv2.destroyAllWindows()
-      */
-
-
 
     namedWindow("Video", CV_WINDOW_AUTOSIZE);
     // initialization
