@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hlm/workspace/clion/OCLParts/cvcl/main.cpp
+opencv2/objdetect/objdetect.hpp
+/home/hlm/workspace/clion/OCLParts/cvcl/opencv2/objdetect/objdetect.hpp
+opencv2/highgui/highgui.hpp
+/home/hlm/workspace/clion/OCLParts/cvcl/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/home/hlm/workspace/clion/OCLParts/cvcl/opencv2/imgproc/imgproc.hpp
+opencv2/core/ocl.hpp
+/home/hlm/workspace/clion/OCLParts/cvcl/opencv2/core/ocl.hpp
+iostream
+-
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+
